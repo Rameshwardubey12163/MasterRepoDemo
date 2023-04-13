@@ -7,7 +7,7 @@ public class Gitproject2 {
 	int b=15;
 	int sum=a+b;
 	System.out.println(sum);
-	System.out.println("ganesha");
+	System.out.println("Shree ganesha");
 	}
 
 }
