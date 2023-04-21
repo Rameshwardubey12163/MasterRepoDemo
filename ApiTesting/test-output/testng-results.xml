@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T23:31:15 IST" name="Default suite" finished-at="2023-04-21T23:31:20 IST" duration-ms="5389">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T23:31:15 IST" name="Default test" finished-at="2023-04-21T23:31:20 IST" duration-ms="5389">
+      <class name="restAssured.HttpRequest">
+        <test-method signature="Getrequest()[pri:1, instance:restAssured.HttpRequest@4ec4f3a0]" started-at="2023-04-21T23:31:15 IST" name="Getrequest" finished-at="2023-04-21T23:31:19 IST" duration-ms="3615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getrequest -->
+        <test-method signature="postRequest()[pri:2, instance:restAssured.HttpRequest@4ec4f3a0]" started-at="2023-04-21T23:31:19 IST" name="postRequest" finished-at="2023-04-21T23:31:20 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method signature="UpdatRequest()[pri:3, instance:restAssured.HttpRequest@4ec4f3a0]" started-at="2023-04-21T23:31:20 IST" name="UpdatRequest" finished-at="2023-04-21T23:31:20 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatRequest -->
+      </class> <!-- restAssured.HttpRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

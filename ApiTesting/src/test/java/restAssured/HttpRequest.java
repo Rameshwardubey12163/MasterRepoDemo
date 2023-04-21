@@ -1,5 +1,6 @@
-package restAssuredpakage;
-import org.testng.annotations.Test; 
+package restAssured;
+
+import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
 
@@ -8,12 +9,10 @@ import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.HashMap;
-
-public class HttpReq {
-
-
+public class HttpRequest {
 	
 	int id;
+	
 	
 	@Test(priority=1)
 	public void Getrequest() {
@@ -47,8 +46,8 @@ public class HttpReq {
 	@Test(priority=3)
 	public void UpdatRequest() {
 		HashMap body= new HashMap();
-		body.put("name", "arun");
-		body.put("job", "doctor");
+		body.put("name", "ram");
+		body.put("job", "software engineer");
 		given()
 		     .contentType(ContentType.JSON)
 		     .body(body)
@@ -58,15 +57,6 @@ public class HttpReq {
 		     .statusCode(200)
 		      .log().all();
 		
-	}
-	@Test(priority=4)
-	public void deletuser() {
-		given()
-		.when()
-		 .delete("https://reqres.in/api/users/"+id)
-		.then()
-		.statusCode(204)
-		.log().all();
 	}
 
 }
